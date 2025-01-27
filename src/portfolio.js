@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Sanchi Bhutra",
+  title: "Hi, I'm Sanchi",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A professional daydreamer turned product enthusiast from BITS Pilani. I specialize in turning ideas into reality Whether it’s building SaaS products, hunting for the next big idea, or yapping professionally on LinkedIn, I thrive on creativity, curiosity, and a pinch of chaos. If you’re into innovative solutions, clever wordplay, or just good vibes, you’re in the right place. Let’s create something amazing together!"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,13 +33,8 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  linkedin: "https://in.linkedin.com/in/sanchi-bhutra-%F0%9F%A6%8B-839173250",
+  gmail: "sanchibhutra@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +44,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "PASSIONATE PRODUCT ENTHUSIAST EXPLORING INNOVATION & USER-CENTRIC SOLUTIONS",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Design and develop innovative, user-centric products that solve real-world problems"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Drive product growth through data-driven decisions and agile methodologies"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Seamless integration of third-party tools and platforms to enhance product functionality and scalability"
     )
   ],
 
@@ -65,56 +60,28 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "confluence",
+      fontAwesomeClassname: "fab fa-confluence"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "figma",
+      fontAwesomeClassname: "fab fa-figma"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "excel",
+      fontAwesomeClassname: "fab fa-microsoft"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "jira",
+      fontAwesomeClassname: "fab fa-jira"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "slack",
+      fontAwesomeClassname: "fab fa-slack"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "google analytics",
+      fontAwesomeClassname: "fab fa-google"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +93,11 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Birla Institute of Technology and Science, Pilani",
+      logo: require("./assets/images/bitslogo.png"),
+      subHeader: "B.E. in Chemical Engineering",
+      duration: "September 2022 - June 2026",
+      
     }
   ]
 };
@@ -153,15 +108,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "User Research", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Roadmap Planning",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Problem Solving",
       progressPercentage: "60%"
     }
   ],
@@ -174,30 +129,50 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Product Management Intern",
+      company: "Symplora",
+      companylogo: require("./assets/images/Screenshot 2025-01-26 at 1.13.19 AM.png"),
+      date: "Nov 2024 – Present",
+      descBullets:[
+        "Developed payroll modules for investments, flexi-pay benefits, and reports & analytics, enhancing financial operations and user experience.",
+        "Streamlined HR processes by implementing email communication workflows and document signing automation.",
+        "Designed an organization tree module for visualizing reporting structures and managing dynamic hierarchies.",
+        "Built a real-time chat module, improving team communication and collaboration within the platform."
+      ] 
+    },
+
+
+    {
+      role: "Product Manager Intern",
+      company: "Mroller",
+      companylogo: require("./assets/images/mroller_logo.jpeg"),
+      date: "Jan 2024 – May 2024",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        'Led user-centric design for 4 MVPs (testing, ATS, integrations, frameworks), enhancing UI/UX and ensuring product rollout readiness.',
+        'Developed APIs and created comprehensive documentation for seamless platform integration, improving functionality and user experience.',
+        "Collaborated with cross-functional teams to gather feedback from 150+ HRs globally, driving the development of 3 key features: platform integrations, AI job prompt generation, and multi-platform job posting."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+      role: "Product Management Intern",
+      company: "Wizdom",
+      companylogo: require("./assets/images/wizdom_logo.jpeg"),
+      date: " May 2024 – July 2024",
+      descBullets: [
+        'Led user research, conducting 30+ interviews to gather insights and identify pain points, driving user-centric feature enhancements.',
+        'Implemented in-app feature changes, informed by research, to improve user engagement and increase app open rates by 28%.',
+        "Developed marketing strategies focused on making the Wizdom app a habitual part of users' routines, enhancing retention and stickiness."
+      ]    },
+    
+      {
+        role: "Summer Intern",
+        company: "Grasim industries",
+        companylogo: require("./assets/images/Aditya_Birla_Grasim_Logo.png"),
+        date: " May 2024 – July 2024",
+        descBullets: [
+          'Analyzed operational data from 4 machines using Excel and Power BI, identifying key performance metrics and pinpointing the most efficient machine.',
+          'Recommended machine replacements based on data-driven insights, contributing to a 15% improvement in operational efficiency.'        ]    }
+    
   ]
 };
 
@@ -206,38 +181,99 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Some Projects I have done",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Zomato Logo (1).png"),
+      projectName: "Zomato Review System",
+      projectDesc: "For Zomato, I reimagined the review system to make user feedback seamless, engaging, and rewarding. Key features included an Audio-to-Text Review Assistant for effortless review submission, smart prompts for detailed feedback, real-time sentiment analysis for respectful tone, and multi-language support for inclusivity. A Rewards System incentivized participation with credits redeemable for discounts and freebies, while AI moderation ensured authenticity. These enhancements simplified feedback, gamified the process, and fostered trust and engagement in the Zomato community.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "PPT",
+          url: "https://www.canva.com/design/DAGPPepQUdM/9gz8aOu-kJJB1fzJRruwBA/edit?utm_content=DAGPPepQUdM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+        },
+        {
+          name: "PRD",
+          url: "https://docs.google.com/document/d/1J2riFVXeJag3C2eTw0yz-vm6JKIqlXxcj8wriXOe1qw/edit?usp=sharing"
         }
+
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/recipecup.png"),
+      projectName: "Recipe Cup",
+      projectDesc: "Recipe Cup is a food-tech project I worked on to empower home chefs and connect them with food enthusiasts. I contributed to creating a zero-commission model that allows chefs to sell signature dishes, plan pre-orders, and showcase homemade ingredients like sauces and spices. I also designed a Weekly Menu Planner with dietary filters and categorized meal options to make meal discovery easier. By integrating detailed product descriptions, allergen transparency, and real-time availability, I aimed to deliver a seamless and inclusive user experience while fostering a community that celebrates food and creativity.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "PPT",
+          url: "hhttps://www.canva.com/design/DAGKeHfMqEM/FH2uKi667qux1_LYC5XIXg/edit?utm_content=DAGKeHfMqEM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+        },
+
+        {
+          name: "Figma",
+          url: "https://www.figma.com/design/kZqLb6pOjsnotIIT7yzzhl/Food-delivery-app?node-id=0-1&t=xRoRGyYUGxplor7l-1"
         }
+
+      ]
+    },
+    {
+      image: require("./assets/images/groww.jpg"),
+      projectName: "Groww",
+      projectDesc: "The Groww project focused on enhancing the user experience of a D2C investment platform by addressing beginner support, personalized insights, and reactive customer service challenges. I improved onboarding flows with step-by-step guidance and introduced the 'Guide Me' feature to provide personalized investment recommendations. Tools like 'Invest Like a Pro' and 'Groww with Clarity' were refined for better usability and transparency. By integrating interactive analytics, educational resources, and key performance metrics, the project positioned Groww as a user-centric platform fostering trust and engagement.",
+      footerLink: [
+        {
+          name: "PPT",
+          url: "https://www.canva.com/design/DAGGmnoOqu4/UpBF2Q5af8V6rngpSSMQcA/edit?utm_content=DAGGmnoOqu4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+        }
+
+      ]
+    },
+    {
+      image: require("./assets/images/Medium Logo.png"),
+      projectName: "Medium",
+      projectDesc: "For the Medium project, I focused on improving content discovery, enhancing the reading experience, and boosting writer engagement. I proposed AI-driven recommendations for personalized content discovery, interactive analytics to help writers understand audience behavior, and updates to the Partner Program for greater transparency. By defining metrics like content consumption and writer retention, I worked to strengthen connections between readers and writers and enhance Medium’s overall user experience.",
+      footerLink: [
+        {
+          name: "PPT",
+          url: "https://www.canva.com/design/DAGL4xAqiA4/aQmQ9ZqQ2lXxHb1XpFHewA/edit?utm_content=DAGL4xAqiA4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+        }
+
+      ]
+    },
+    {
+      image: require("./assets/images/BB Now Logo.webp"),
+      projectName: "Big Basket Now",
+      projectDesc: "For this project, I worked on improving the user experience by addressing challenges like a cluttered UI, low-quality visuals, and unclear product details. Solutions included a redesigned interface with high-quality images, better delivery address management, and a dynamic flash sale bar to highlight deals. I also introduced features like 'Recipe Roulette' for personalized meal ideas and a 'Smart Coupons' system offering tailored discounts and loyalty rewards. These enhancements aimed to boost engagement, retention, and sales.",
+      footerLink: [
+        {
+          name: "PPT",
+          url: "https://www.canva.com/design/DAGI2xounq4/txJzH2Zd3ZGJAwh1YV3qtw/edit?utm_content=DAGI2xounq4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+        }
+
+      ]
+    },
+    {
+      image: require("./assets/images/Cleartrip Logo.png"),
+      projectName: "ClearTrip",
+      projectDesc: "For Cleartrip, I focused on enhancing the travel planning experience by addressing issues like inaccurate room details, confusing pricing, and limited itinerary management. I proposed the Hyper-Personalized Itinerary Builder to create tailored travel plans with real-time activity suggestions and verified hotel details, and the Real-Time Travel Assistant to provide live updates, predictive cost management, and multilingual support. These solutions aimed to improve user satisfaction and boost booking conversions.",
+      footerLink: [
+        {
+          name: "PPT",
+          url: "https://www.canva.com/design/DAGIl9dlRvQ/xQibTR4A8K40eqzEzrr4XA/edit?utm_content=DAGIl9dlRvQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+        }
+
       ]
     }
+
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -256,7 +292,7 @@ const achievementSection = {
       subtitle:
         "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
       image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      imageAlt: "Google",
       footerLink: [
         {
           name: "Certification",
@@ -300,28 +336,40 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "Achievements",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "Driven to create impactful projects and share insights to empower others.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      // url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+      title: "ReThink Systems",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Secured 2nd place as the youngest participant in a case study competition conducted by Rethink Systems, competing against 150+ participants and demonstrating strong analytical skills"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      // url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+      title: "Product Space",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Ranked in the top 0.1 percentile in a case study by Product Space for Recipe Cup and secured 3rd place in People’s Choice Awards out of 300+ entries."
+    },
+    {
+      // url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+      title: "Linkedin",
+      description:
+        "Mastered the art of turning scrolls into follows by creating binge-worthy content that hooked 10,000+ followers on LinkedIn in just a few months."
+    },
+    {
+      // url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+      title: "BITS Embryo",
+      description:
+        "Hosted and managed large-scale events with 5,000–6,000 attendees, including celebrity appearances, successfully executing logistics, negotiations, and crowd management as a core member of BITS Embryo."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -343,7 +391,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +404,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -372,8 +420,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  email_address: "sanchibhutra@gmail.com"
 };
 
 // Twitter Section
