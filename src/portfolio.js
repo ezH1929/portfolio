@@ -143,7 +143,7 @@ const workExperiences = {
 
 
     {
-      role: "Product Manager Intern",
+      role: "Product Management Intern",
       company: "Mroller",
       companylogo: require("./assets/images/mroller_logo.jpeg"),
       date: "Jan 2024 – May 2024",
