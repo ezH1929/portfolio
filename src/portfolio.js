@@ -26,7 +26,7 @@ const greeting = {
     "A professional daydreamer turned product enthusiast from BITS Pilani. I specialize in turning ideas into reality Whether it’s building SaaS products, hunting for the next big idea, or yapping professionally on LinkedIn, I thrive on creativity, curiosity, and a pinch of chaos. If you’re into innovative solutions, clever wordplay, or just good vibes, you’re in the right place. Let’s create something amazing together!"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1runFqrBHRRgFcTihCBrxuhGvxDs8w_KB/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1PFB6LrDN10U7iKT526ctWJMGvbmjProx/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
